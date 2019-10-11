@@ -1,0 +1,32 @@
+{
+  "name": "npm_taskrunner",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "uglify": "uglifyjs src/models/* src/frontend.js -m -c -o build/app.js",
+    "copy-files": "cp src/*.html build/ & cp src/*.css build/",
+    "build": "npm run copy-files && npm run uglify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattoattacko/NPM_Task_Runner.git"
+  },
+  "keywords": [
+    "dice",
+    "simulator"
+  ],
+  "author": "Matthew McQuain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattoattacko/NPM_Task_Runner/issues"
+  },
+  "homepage": "https://github.com/mattoattacko/NPM_Task_Runner#readme",
+  "dependencies": {
+    "mocha": "^6.2.1",
+    "uglify-js": "^3.6.1"
+  }
+}

@@ -1,5 +1,7 @@
 # Dice Simulator 9000
 
+![Dice Simulator](img/npm-taskrunner.png)
+
 ## Description:
  Here we are using npm and uglify-js to create task runners to take our code and consolidate it into the build folder. 
 

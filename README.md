@@ -6,3 +6,5 @@
 
 #### Requirements:
  Uglify-js & Mocha are required dependencies. Use <$npm install> to add them to your local machine once you have downloaded this project. 
+
+ Use the index.html located in the build/ folder (not the one in the src/ folder) to view the actual dice simulator. 

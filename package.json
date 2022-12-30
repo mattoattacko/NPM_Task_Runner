@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/mattoattacko/NPM_Task_Runner#readme",
   "dependencies": {
-    "mocha": "^6.2.1",
+    "mocha": "^10.2.0",
     "uglify-js": "^3.6.1"
   }
 }
